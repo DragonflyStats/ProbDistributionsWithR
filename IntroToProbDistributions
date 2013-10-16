@@ -1,0 +1,28 @@
+Probability distributions
+Poisson distribution
+Binomial distribution
+Normal distribution
+
+Probability density function
+
+Probability of a realisation that does not exceed a certain value.
+
+Discrete Random Variables
+
+pbinom(k ,n,p)
+
+Given a sample size of 10. where the probability of success is 0.3
+
+pbinom (4 10.3)
+
+Poisson Distribution
+dpois( lambda)
+
+Continuous Random Variables
+Exponential Distribution
+Uniform Distribution
+Standard Normal Distribution
+Normal Distribution
+
+Random Number Generation 
+rnorm (n=10)
