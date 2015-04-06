@@ -1,11 +1,8 @@
-\documentclass{beamer}
-% -http://www.r-bloggers.com/a-startlingly-neat-simple-rule-five-graphs-about-patterns-that-might-surprise-you/
+\documentclass[MAIN.tex]{subfiles} 
+\begin{document} 
+% - http://www.r-bloggers.com/a-startlingly-neat-simple-rule-five-graphs-about-patterns-that-might-surprise-you/
 % - http://onlinelibrary.wiley.com/doi/10.1029/1999WR900012/pdf
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{framed}
 
-\begin{document}
 \begin{frame}
 \frametitle{Zipf Distribution}
 George Zipf popularized an idea—Zipf’s Law—that approximates populations of cities, distribution of money in counties, and how frequently words are used. Nobel Prize-winning columnist Paul Krugmans wrote of Zipf’s Law that
@@ -21,7 +18,10 @@ A Zipfian Distribution: How Often Words Appear
 
 \begin{frame}
 \frametitle{Zipf Distribution}
-A Zipfian distribution is a type of power law. A power law occurs when one event varies as a power of another. One application of Zipf’s law states that in texts of natural language (e.g., books), each word is used twice as often as the next most commonly occuring word. The graph below applies the rule to word usage in 29 UK books below. “The” occurred 225,300 uses, and was the most commonly used word. Note that the graph is interactive; you can press the “play with this data” link to edit, embed, and share your own version. 
+\begin{itemize}
+\item A Zipfian distribution is a type of power law. A power law occurs when one event varies as a power of another. One application of Zipf’s law states that in texts of natural language (e.g., books), each word is used twice as often as the next most commonly occuring word. 
+\item The graph below applies the rule to word usage in 29 UK books below. “The” occurred 225,300 uses, and was the most commonly used word. Note that the graph is interactive; you can press the “play with this data” link to edit, embed, and share your own version. 
+\end{itemize}
 
 \end{frame}
 %=====================================================================================%
@@ -32,8 +32,12 @@ A Zipfian distribution is a type of power law. A power law occurs when one event
 Evaluating Power Laws
 
 
-
-We can test for a power law by plotting frequency (y-axis) against rank (x-axis) on a double log axis. Then check for a straight line. The graph below shows three attempts to fit a power law function to datasets. The plot on the left is a good fit. The plot in the middle is a decent fit. The plot on the right is not a good fit. 
+\begin{itemize}
+\item We can test for a power law by plotting frequency (y-axis) against rank (x-axis) on a double log axis. Then check for a straight line.
+\item The graph below shows three attempts to fit a power law function to datasets. The plot on the left is a good fit. The plot in the middle is a decent fit.
+\item  The plot on the right is not a good fit.
+\end{itemize}
+ 
 
 \end{frame}
 %=====================================================================================%
@@ -42,9 +46,7 @@ We can test for a power law by plotting frequency (y-axis) against rank (x-axis)
 \frametitle{Zipf Distribution}
 
 
-
-
-Evaluating Zipfian Distributions For City Populations
+\textbf{Evaluating Zipfian Distributions For City Populations}
 
 
 
@@ -61,7 +63,7 @@ In this dataset, New York has the highest population and is ranked first.
 
 
 
-GDP Of Nations
+\textbf{GDP Of Nations}
 
 
 
@@ -76,7 +78,7 @@ We are approaching a Zipfians distribution for country GDP vs rank.
 
 
 
-Evaluating Power Laws For Many Datasets
+\textbf{Evaluating Power Laws For Many Datasets}
 
 
 
